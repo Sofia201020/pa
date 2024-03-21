@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+}
+
+.m{
+    text-align: center;
+    font-size: 30px;
+    top: 90%;
+    font-family: arial black;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 50px;
+}
+
+article{
+    background-color: rgba(95, 158, 160, 0.63);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 7%;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0auto;
+    width: 800px;
+}
+
+.section{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Impact, fantasy;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: black;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.top-right a{
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+div{
+    display: flex;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0auto;
+    width: 800px;
+}
+
+.p :hover{
+    transition: 0.5s ease-out;
+}
+
+.p :hover{
+    transition: 0.5s ease-out;
+    box-shadow: 4px 6px 11px rgb(78, 123, 124);
+    font-size: 21px;
+}
